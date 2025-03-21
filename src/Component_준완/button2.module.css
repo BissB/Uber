@@ -1,0 +1,23 @@
+.button {
+  display: flex;
+  padding: 1vh 0 0 0.3vw;
+}
+
+.button button {
+  width: 105px;
+  height: 45px;
+  font-size: 14px;
+  margin-left: 0.3vw;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* font-size: 16px; */
+  transition: background-color 0.3s ease;
+  
+}
+  
+  .button button:hover {
+    background-color: #eeeeee;
+  }

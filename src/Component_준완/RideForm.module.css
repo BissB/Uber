@@ -1,0 +1,40 @@
+.container {
+    margin: 6vh 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 10vw;
+  }
+  
+  .form_container {
+    flex: 1;
+    display: flex;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .map_container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    background-color: white;
+    max-width: 600px;
+    /* margin-left: 50px; */
+  }
+  
+  .datetime_container {
+    display: flex;
+    /* justify-content: flex-start; */
+    /* gap: 20px; */
+    max-width: 14.5vw;
+  }
+  
+  .date, .time {
+    flex: 0 1 auto;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+  }

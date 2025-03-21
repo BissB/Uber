@@ -1,0 +1,22 @@
+.예약_세부정보_안{
+    color: black;
+    font-size: 14px;
+    flex-direction: row;
+    text-decoration: none;
+
+}
+
+.예약_세부정보_밖{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px 12px;
+}
+
+.예약_세부정보_밖:hover {
+    background-color: #dddddd;
+    transition: 0.5s;
+}

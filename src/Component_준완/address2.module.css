@@ -1,0 +1,33 @@
+.address {
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  position: relative;
+
+}
+
+.delivery {
+  background-color: #f3f3f3;
+  border: 2px solid transparent;
+  padding: 1.5vh 1.5vw 1.5vh 2vw;
+  border-radius: 5px;
+  max-width: 16vw;
+  flex: 1;
+  /* font-size: inherit;  */
+}
+
+.address input:focus-within {
+  border: 2px solid black;
+  background-color: white;
+
+  transition: 0.3s ease;
+}
+
+.address i {
+  color: black;
+  position: absolute;
+  font-size: 10px;
+  margin-left: 15px;
+  z-index: 2;
+}

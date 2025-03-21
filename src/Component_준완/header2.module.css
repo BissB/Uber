@@ -1,0 +1,9 @@
+.header h2 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 64px;
+  width: 450px;
+  padding:10px;
+  text-align: left; /* 텍스트 중앙 정렬 (선택 사항) */
+  margin-top: 0px;
+  }

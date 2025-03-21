@@ -1,0 +1,9 @@
+.All{
+  /* justify-content: center; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 8vw;
+  padding: 5vh 10vw;
+  scale: 0.9;
+}

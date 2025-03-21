@@ -1,0 +1,103 @@
+
+.section{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  background-color: #000000;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: auto;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.div1{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.div2{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.div3{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  align-self: flex-start;
+  width: 100%;
+  max-width: 1152px;
+  padding-top: 64px;
+  padding-right: 64px;
+  padding-bottom: 64px;
+  padding-left: 64px;
+}
+
+.div4{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  display: grid;
+  height: 100%;
+  justify-items: inherit;
+  grid-column-gap: 36px;
+  grid-row-gap: 36px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.Abox{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  grid-column: 1/-1;
+  order: 0;
+  width: 100%;
+  align-self: center;
+  display: grid;
+}
+
+.Bbox{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  grid-column: 1/-1;
+  order: 0;
+  width: 100%;
+  align-self: center;
+  display: grid;
+}
+
+.Cbox{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  grid-column: 1/-1;
+  order: 0;
+  width: 100%;
+  align-self: center;
+  display: grid;
+}
+
+.Dbox{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  grid-column: 1/-1;
+  order: 0;
+  width: 100%;
+  align-self: center;
+  display: grid;
+}
+
+

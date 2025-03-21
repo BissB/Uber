@@ -1,0 +1,21 @@
+.차량_박스_밖{
+    padding: 16px;
+    background-color: #f3f3f3;
+    border-radius: 7px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 340px;
+    height: 130px;
+    text-decoration: none;
+    color: black;
+}
+
+.text {
+    text-align: left;
+    max-width: 20vw;
+}
+
+.차량_박스_안{
+    display: block;
+}

@@ -1,0 +1,9 @@
+.header h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+  width: 400px;  /* 전체 부모 컨테이너의 넓이를 차지 */
+  text-align: left; /* 텍스트 중앙 정렬 (선택 사항) */
+  margin-top: 0px;
+  margin-bottom: 30px;
+  }

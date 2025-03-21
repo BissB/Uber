@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 1.7vw;
+}
+
+ul li a {
+  /* margin-right: 0.4vw; */
+  color: #fff;
+  font-size: 0.9em;
+  text-decoration: none;
+  padding: 0.5rem 0.7rem;
+}
+
+ul li a:hover {
+  background-color: #282828;
+  border-radius: 20px;
+  transition: 0.5s;
+}

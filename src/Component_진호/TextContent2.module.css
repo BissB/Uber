@@ -1,0 +1,77 @@
+.content {
+  max-width: 22vw;
+  padding: 40px 0 40px 0;
+}
+.guide {
+  text-decoration: underline;
+  color: black;
+}
+.content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 4rem;
+  text-align: left;
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  margin-top: 1vh;
+}
+
+.start_button {
+  background-color: #000000;
+  color: white;
+  border-radius: 8px;
+  border-color: transparent;
+  font-size: 16px;
+
+  padding: 12px 20px;
+  margin-top: 1vh;
+  margin-right: 1vw;
+  cursor: pointer;
+}
+
+.start_button:hover {
+  background-color: #333333;
+  transition: 0.5s;
+}
+
+.learn_more_button {
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+}
+
+.learn_more_button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 1px;
+  width: 100%;
+  background-color: #d1d1d1;
+}
+
+.learn_more_button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.learn_more_button:hover::after {
+  transform: scaleX(1);
+}

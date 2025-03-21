@@ -1,0 +1,57 @@
+.picup {
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.location {
+  background-color: #f3f3f3;
+  border: 2px solid transparent;
+  padding: 1.5vh 1.5vw 1.5vh 2vw;
+  border-radius: 5px;
+  max-width: 16vw;
+  flex: 1;
+  /* font-size: inherit; */
+}
+
+.picup::after {
+  content: '';
+  position: absolute;
+  top: 4.5vh;
+  left: 1.7vw;
+  width: 1px;
+  height: 5vh;
+  background-color: white;
+
+  z-index: 2;
+}
+
+.picup input:focus-within {
+  border: 2px solid black;
+  background-color: white;
+
+  transition: border background-color 0.5s;
+}
+
+.picup .circle {
+  color: black;
+  position: absolute;
+  font-size: 10px;
+  margin-left: 15px;
+  z-index: 2;
+}
+
+.icon {
+  position: relative;
+}
+
+.location .plane {
+  position: absolute;
+  font-size: 30px;
+  /* margin-left: auto; */
+  right: 50px;
+  z-index: 2;
+
+}

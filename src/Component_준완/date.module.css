@@ -1,0 +1,27 @@
+.date {
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.date input {
+  background-color: #f3f3f3;
+  /* background-color: #000; */
+  border: 2px solid transparent;
+  color: #757575;
+  padding: 1vh 1vw 1vh 1.5vw;
+  border-radius: 5px;
+  width: 5vw;
+  position: relative;
+}
+
+.date input:focus-within {
+  border: 2px solid black;
+  background-color: white;
+
+  transition: 0.3s ease;
+}

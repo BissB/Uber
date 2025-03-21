@@ -1,0 +1,8 @@
+.taxi_image {
+  width: 500px;
+  height: 500px;
+  background: url(./img/img.png);
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 10px;
+}
